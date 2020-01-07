@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\Courses\\Courses\\Courses.API\\Courses.API.csproj": {}
+    "C:\\Users\\matheus.andrade\\Documents\\Outros\\CourseAspNetCore3.0\\Courses.API\\Courses.API.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\Courses\\Courses\\Courses.API\\Courses.API.csproj": {
+    "C:\\Users\\matheus.andrade\\Documents\\Outros\\CourseAspNetCore3.0\\Courses.API\\Courses.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Courses\\Courses\\Courses.API\\Courses.API.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.andrade\\Documents\\Outros\\CourseAspNetCore3.0\\Courses.API\\Courses.API.csproj",
         "projectName": "Courses.API",
-        "projectPath": "D:\\Projetos\\Courses\\Courses\\Courses.API\\Courses.API.csproj",
-        "packagesPath": "C:\\Users\\ulian\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Courses\\Courses\\Courses.API\\obj\\",
+        "projectPath": "C:\\Users\\matheus.andrade\\Documents\\Outros\\CourseAspNetCore3.0\\Courses.API\\Courses.API.csproj",
+        "packagesPath": "C:\\Users\\matheus.andrade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.andrade\\Documents\\Outros\\CourseAspNetCore3.0\\Courses.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ulian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matheus.andrade\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,6 +62,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.0.19, )"
             },
             "System.Runtime": {
               "target": "Package",

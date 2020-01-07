@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Courses.API.Models
 {
-    [CourseTitleMustBeDifferentFromDescription(ErrorMessage = "Title must be different from description"]
+    [CourseTitleMustBeDifferentFromDescription(ErrorMessage = "Title must be different from description")]
     public class CourseForCreationDto
     {
         [Required(ErrorMessage = "You should fill out a title.")]
