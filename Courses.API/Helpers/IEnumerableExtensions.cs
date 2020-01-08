@@ -62,6 +62,8 @@ namespace Courses.API.Helpers
 
                 return expandoObjectList;
             }
+
+            return expandoObjectList;
         }
     }
 }

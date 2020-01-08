@@ -27,6 +27,7 @@ namespace Courses.API.Helpers
 
                 }
             }
+            return dataShapedObject;
         }
     }
 }
