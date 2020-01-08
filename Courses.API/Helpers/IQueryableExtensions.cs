@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Dynamic.Core;
 using System.Threading.Tasks;
 
 namespace Courses.API.Helpers
@@ -24,6 +25,44 @@ namespace Courses.API.Helpers
             {
                 return source;
             }
+
+            var orderByAfterSplit = orderBy.Split(',');
+
+            foreach (var orderByClause in orderByAfterSplit.Reverse())
+            {
+                var trimmedOrderByClause = orderByClause.Trim();
+
+                var orderDescending = trimmedOrderByClause.EndsWith(" desc");
+
+                var indexOfFirstSpace = trimmedOrderByClause.IndexOf(" ");
+
+                var propertyName = indexOfFirstSpace == -1 ?
+                    trimmedOrderByClause : trimmedOrderByClause.Remove(indexOfFirstSpace);
+
+                if (!mappingDictionary.ContainsKey(propertyName))
+                {
+                    throw new ArgumentException($"Key mapping for {propertyName} is missing");
+                }
+
+                var propertyMappingValue = mappingDictionary[propertyName];
+
+                if (propertyMappingValue == null)
+                {
+                    throw new ArgumentNullException("propertyMappingValue");
+                }
+
+                foreach (var destinationProperty in propertyMappingValue.DestinationProperties.Reverse())
+                {
+                    if (propertyMappingValue.Revert)
+                    {
+                        orderDescending = !orderDescending;
+                    }
+                    source = source.OrderBy(destinationProperty +
+                        (orderDescending ? " descending" : " ascending"));
+                }
+            }
+
+            return source;
         }
     }
 }
