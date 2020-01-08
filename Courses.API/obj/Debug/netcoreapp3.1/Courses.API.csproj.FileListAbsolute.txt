@@ -40,3 +40,11 @@ D:\Projetos\Courses\Courses\Courses.API\obj\Debug\netcoreapp3.1\Courses.API.pdb
 D:\Projetos\Courses\Courses\Courses.API\obj\Debug\netcoreapp3.1\Courses.API.csprojAssemblyReference.cache
 D:\Projetos\Courses\Courses\Courses.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 D:\Projetos\Courses\Courses\Courses.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\matheus.andrade\Documents\Outros\CourseAspNetCore3.0\Courses.API\obj\Debug\netcoreapp3.1\Courses.API.csprojAssemblyReference.cache
+C:\Users\matheus.andrade\Documents\Outros\CourseAspNetCore3.0\Courses.API\obj\Debug\netcoreapp3.1\staticwebassets\Courses.API.StaticWebAssets.Manifest.cache
+C:\Users\matheus.andrade\Documents\Outros\CourseAspNetCore3.0\Courses.API\obj\Debug\netcoreapp3.1\staticwebassets\Courses.API.StaticWebAssets.xml
+C:\Users\matheus.andrade\Documents\Outros\CourseAspNetCore3.0\Courses.API\obj\Debug\netcoreapp3.1\Courses.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\matheus.andrade\Documents\Outros\CourseAspNetCore3.0\Courses.API\obj\Debug\netcoreapp3.1\Courses.API.AssemblyInfoInputs.cache
+C:\Users\matheus.andrade\Documents\Outros\CourseAspNetCore3.0\Courses.API\obj\Debug\netcoreapp3.1\Courses.API.AssemblyInfo.cs
+C:\Users\matheus.andrade\Documents\Outros\CourseAspNetCore3.0\Courses.API\obj\Debug\netcoreapp3.1\Courses.API.dll
+C:\Users\matheus.andrade\Documents\Outros\CourseAspNetCore3.0\Courses.API\obj\Debug\netcoreapp3.1\Courses.API.pdb
