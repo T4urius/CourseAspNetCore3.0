@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus.andrade\\Documents\\Outros\\CourseAspNetCore3.0\\Courses.API\\Courses.API.csproj": {}
+    "D:\\Projetos\\Courses\\Courses\\Courses.API\\Courses.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus.andrade\\Documents\\Outros\\CourseAspNetCore3.0\\Courses.API\\Courses.API.csproj": {
+    "D:\\Projetos\\Courses\\Courses\\Courses.API\\Courses.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.andrade\\Documents\\Outros\\CourseAspNetCore3.0\\Courses.API\\Courses.API.csproj",
+        "projectUniqueName": "D:\\Projetos\\Courses\\Courses\\Courses.API\\Courses.API.csproj",
         "projectName": "Courses.API",
-        "projectPath": "C:\\Users\\matheus.andrade\\Documents\\Outros\\CourseAspNetCore3.0\\Courses.API\\Courses.API.csproj",
-        "packagesPath": "C:\\Users\\matheus.andrade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.andrade\\Documents\\Outros\\CourseAspNetCore3.0\\Courses.API\\obj\\",
+        "projectPath": "D:\\Projetos\\Courses\\Courses\\Courses.API\\Courses.API.csproj",
+        "packagesPath": "C:\\Users\\ulian\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\Courses\\Courses\\Courses.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\matheus.andrade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ulian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,14 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -63,9 +71,9 @@
               "target": "Package",
               "version": "[3.1.0, )"
             },
-            "System.Linq.Dynamic.Core": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[1.0.19, )"
+              "version": "[12.0.3, )"
             },
             "System.Runtime": {
               "target": "Package",
